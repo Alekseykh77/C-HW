@@ -15,7 +15,7 @@ void CheckingNumber(string number)
     {
         Console.WriteLine($"Ваше число: {number} - полиндром");
     }
-    else Console.WriteLine($"Ваше число: {number} - не польндром");
+    else Console.WriteLine($"Ваше число: {number} - не полиндром");
 }
 if (number!.Length == 5)
 {
