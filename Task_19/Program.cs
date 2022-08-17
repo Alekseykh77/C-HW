@@ -11,7 +11,8 @@ string? number = Console.ReadLine();
 
 void CheckingNumber(string number)
 {
-    if ( number[0] == number[4] || number[1] == number[3])
+    if ( number[0] == number[4] && number[1] == number[3]) // первый элемент дожен быть равен последнему и второй элемент предпоследнему
+    // только если оба условия выполняются число - полиндром, знак || - или не подходит. Необходим знак && - и.
     {
         Console.WriteLine($"Ваше число: {number} - полиндром");
     }
