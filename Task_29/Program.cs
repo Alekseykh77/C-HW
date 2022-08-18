@@ -50,7 +50,7 @@ int[] ArrayOfNumbers(string seriesNew)
   return arrayOfNumbers;
 }
 
-// функция  вывода массива на печать 
+// функция  вывода массива на экран 
 void PrintArry(int[] coll)
 {
   int count = coll.Length;
