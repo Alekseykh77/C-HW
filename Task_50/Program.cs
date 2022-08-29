@@ -33,7 +33,7 @@ int number = Convert.ToInt32(Console.ReadLine());
             if (f)
                 Console.WriteLine($"Число найдено, его индекс ({m},{n})");
             else
-                Console.WriteLine("Такого в массиве нет");
+                Console.WriteLine("Такого числа в массиве нет");
  
 
         
